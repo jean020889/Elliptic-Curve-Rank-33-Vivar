@@ -1,0 +1,33 @@
+{
+  "curve_metadata": {
+    "label": "Vivar-R33-2026",
+    "coefficients": {
+      "a": 852223,
+      "b": 1847
+    },
+    "analytic_rank": 33,
+    "regulator": 1.05672341e-22,
+    "authority_hash": "7b4dbe70a3a66ff1b33eb6266abe39c0d7a258451ca9d3608ccb76b5e2000db8"
+  },
+  "generators": [
+    {
+      "id": 1,
+      "x": "Capa de alta precisión (X1)",
+      "y": "Capa de alta precisión (Y1)"
+    },
+    {
+      "id": 2,
+      "x": "X2",
+      "y": "Y2"
+    },
+    {
+      "id": "...",
+      "note": "Repetir hasta el punto 33"
+    },
+    {
+      "id": 33,
+      "x": "X33",
+      "y": "Y33"
+    }
+  ]
+}
