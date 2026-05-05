@@ -1,0 +1,4 @@
+# Vivar-R33 Project Dependencies
+# Install using: pip install -r requirements.txt
+
+mpmath>=1.3.0
