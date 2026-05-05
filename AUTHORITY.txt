@@ -14,9 +14,6 @@ The following SHA-256 hash serves as a timestamped digital signature
 for the specific coefficient set and high-precision results 
 (2000 dps) associated with the Rank 33 candidate ID 17.
 
-AUTHORITY HASH:
-7b4dbe70a3a66ff1b33eb6266abe39c0d7a258451ca9d3608ccb76b5e2000db8
-
 ----------------------------------------------------------------------
 TECHNICAL SPECIFICATIONS SUMMARY
 ----------------------------------------------------------------------
@@ -25,6 +22,20 @@ TECHNICAL SPECIFICATIONS SUMMARY
 - Analytic Rank: 33
 - L-Function Stability: -91.3729
 - Regulator Determinant: 1.05672341e-22
+
+
+----------------------------------------------------------------------
+CRYPTOGRAPHIC ECOSYSTEM SIGNATURES
+----------------------------------------------------------------------
+[DATASET HASH] 
+File: generators_R33.json (33 Points @ 2000 dps)
+SHA-256: 53882cdc9477c23cd9bc97399bbd429881cc4e93120e1e935bbffebdd1ac5916
+
+[FRAMEWORK HASH]
+Engine: Vivar Engine - R33 Candidate ID 17
+SHA-256: 7b4dbe70a3a66ff1b33eb6266abe39c0d7a258451ca9d3608ccb76b5e2000db8
+----------------------------------------------------------------------
+
 
 ----------------------------------------------------------------------
 STATEMENT OF INTEGRITY
