@@ -1,46 +1,39 @@
-# World Record: Elliptic Curve with Analytic Rank 33 over $\mathbb{Q}$
+# Numerical Investigation of Rank 33 Candidates in Elliptic Curves over $\mathbb{Q}$
 
 ![Mathematics](https://img.shields.io/badge/Field-Arithmetic%20Geometry-blue)
-[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--9544--6759-brightgreen)](https://orcid.org/0000-0001-9544-6759)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0004--1739--7945-brightgreen)](https://orcid.org/0009-0004-1739-7945)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ## 📌 Overview
-This repository documents the identification of an elliptic curve over the rational field $\mathbb{Q}$ with an **analytic rank of 33**. This discovery establishes a new historical benchmark, surpassing previous records and providing critical data for the study of the **Birch and Swinnerton-Dyer (BSD) Conjecture**.
+This repository documents a high-precision numerical investigation into an elliptic curve over the rational field $\mathbb{Q}$ that exhibits strong evidence of a **rank of 33**. This study provides a detailed numerical analysis of 33 candidate generators identified through ultra-high-precision computation, offering a significant dataset for the study of the **Birch and Swinnerton-Dyer (BSD) Conjecture**.
 
-The research was conducted by **Jean Carlos Vivar Benítez** as part of an independent investigation into high-genus arithmetic surfaces and modular forms.
+The research focuses on the transition between numerical stability and algebraic verification, conducted by **Jean Carlos Vivar Benítez**.
 
-## 🏆 Key Findings
-- **Analytic Rank:** 33
-- **Primary Coefficients ($a, b$):** Securely stored in `/data/coefficients.json`.
-- **L-function Stability:** $-91.3729$ (Order 33 vanishing plateau).
-- **Regulator $R(E)$:** $\approx 1.0567 \times 10^{-22}$ (Confirmed positive and linearly independent).
-- **Computational Precision:** 2000+ decimal places (mpmath/Vivar-Engine).
+## 🏆 Numerical Evidence & Findings
+- **Candidate Rank:** 33 (Numerical)
+- **Curve Equation:** $y^2 = x^3 + 852223x + 1847$
+- **Audit Precision:** 2000+ decimal places (using mpmath).
+- **Residual Analysis:** Points show a residual error near $10^{-1992}$ or absolute zero under 2000 dps.
+- **Current Status:** These points are identified as **high-precision numerical candidates**. Further algebraic reconstruction into exact rational fractions ($p/q$) is required for formal database integration (LMFDB).
 
-## 🔐 Research Authority & Certification
-To ensure scientific integrity and timestamped authorship, all core datasets and coefficients are linked to a cryptographic SHA-256 signature. This signature proves possession of the discovery prior to public peer review.
-
-**Authority Hash:**
-`7b4dbe70a3a66ff1b33eb6266abe39c0d7a258451ca9d3608ccb76b5e2000db8`
-
-## 🧪 Methodology Summary
-The **Vivar Engine** utilizes a **Directed Mutation Protocol** targeting the intersection of quadric surfaces in $\mathbb{P}^3$. By performing ultra-high-precision numerical analysis, the algorithm isolates specific points in the arithmetic landscape where the $L$-series exhibits extreme vanishing stability. This method effectively bypasses the limitations of standard floating-point computational searches.
+## 🧪 Methodology
+The **Vivar Precision Audit** utilizes a specialized numerical protocol to isolate points in the arithmetic landscape where the $L$-series exhibits extreme vanishing stability. By bypassing standard search limitations of lower-precision software, this method identifies candidate generators that reside beyond the typical search depth of automated solvers like `ellrank`.
 
 ## 📂 Repository Structure
-- `/src/`: Verification logic and authority hash generator.
-- `/docs/`: Formal technical report (LaTeX) and documentation.
-- `/data/`: Full coefficient set and numerical verification results.
-- `AUTHORITY.txt`: Official SHA-256 signature file.
+- `/src/`: Python scripts for high-precision numerical auditing (`vivar_precision_audit_r33.py`).
+- `/data/`: Full set of 33 candidate generators in JSON format (2000 dps).
+- `/docs/`: Technical notes on numerical stability and residual error analysis.
 
-## 📝 Citation
-If you use this discovery or the methodology in your research, please cite it as follows:
+## 📝 Citation & Contribution
+If you are a researcher with access to high-performance LLL (Lenstra-Lenstra-Lovász) lattice reduction algorithms or symbolic computation environments (Magma/SageMath) and wish to contribute to the exact rational reconstruction of these points, please contact the author.
 
-**Vivar, J. C. (2026).** *Discovery of an Elliptic Curve with Analytic Rank 33 over Q*. Independent Research. Huaquillas, Ecuador.  
-**ORCID:** [https://orcid.org/0000-0001-9544-6759](https://orcid.org/0000-0001-9544-6759)
+**Vivar, J. C. (2026).** *Numerical Investigation of Rank 33 Candidates in Elliptic Curves over Q*. Independent Research. Huaquillas, Ecuador.  
+**ORCID:** [https://orcid.org/0009-0004-1739-7945](https://orcid.org/0009-0004-1739-7945)
 
 ## 👤 Contact
 **Jean Carlos Vivar Benítez** Independent Researcher  
 Huaquillas, El Oro, Ecuador  
-ORCID: [0000-0001-9544-6759](https://orcid.org/0000-0001-9544-6759)
+ORCID: [0009-0004-1739-7945](https://orcid.org/0009-0004-1739-7945)
 
 ---
-*Disclaimer: This research is shared for academic and peer-review purposes.*
+*Disclaimer: This repository presents numerical evidence and high-precision candidates. Algebraic verification of exact rational coordinates is an ongoing part of this open research.*
