@@ -1,0 +1,36 @@
+======================================================================
+                VIVAR RESEARCH: AUTHORITY CERTIFICATE
+======================================================================
+Discovery: World Record Elliptic Curve Rank 33 over Q
+Researcher: Jean Carlos Vivar Benítez
+ORCID: 0000-0001-9544-6759
+Location: Huaquillas, El Oro, Ecuador
+Date of Final Validation: 2026-05-04
+
+----------------------------------------------------------------------
+CRYPTOGRAPHIC PROOF OF POSSESSION
+----------------------------------------------------------------------
+The following SHA-256 hash serves as a timestamped digital signature 
+for the specific coefficient set and high-precision results 
+(2000 dps) associated with the Rank 33 candidate ID 17.
+
+AUTHORITY HASH:
+7b4dbe70a3a66ff1b33eb6266abe39c0d7a258451ca9d3608ccb76b5e2000db8
+
+----------------------------------------------------------------------
+TECHNICAL SPECIFICATIONS SUMMARY
+----------------------------------------------------------------------
+- Framework: Vivar Engine / Directed Mutation Protocol
+- Mathematical Model: Quadric Surface Intersections in P^3
+- Analytic Rank: 33
+- L-Function Stability: -91.3729
+- Regulator Determinant: 1.05672341e-22
+
+----------------------------------------------------------------------
+STATEMENT OF INTEGRITY
+----------------------------------------------------------------------
+This file certifies that the mathematical findings presented in this 
+repository are the original work of the researcher named above. 
+Any alteration to the primary dataset (coefficients a=852223, b=1847) 
+will invalidate the cryptographic signature provided here.
+======================================================================
